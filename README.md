@@ -1,6 +1,3 @@
-# Bootstrap
-Bootstrap start
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,7 +73,69 @@ Bootstrap start
      -->
      <hr/><hr/>
 
-     
+     <div class="container-fluid">
+         <div class="row">
+             <div class="col-xs-12"><h1 class="text-center">loerm</h1></div>
+         </div>
+         <div class="row">
+            <div class="col-sm-8"><h1 class="text-center">ipsum</h1></div>
+            <div class="col-sm-4"><h1 class="text-center">ipsum</h1></div>
+         </div>
+         <div class="row">
+            <div class="col-sm-4"><h1 class="text-center">ipsum</h1></div>
+            <div class="col-sm-4"><h1 class="text-center">ipsum</h1></div>
+            <div class="col-sm-4"><h1 class="text-center">ipsum</h1></div>
+         </div>
+         <div class="row">
+            <div class="col-xs-12"><h1 class="c">ipsum</h1></div>
+         </div>
+     </div>
+     <!-- text-center == text-align : center -->
+     <hr/><hr/>
+
+     <ol class="list-unstyled">
+         <li>A1</li>
+         <li>B2</li>
+         <li>C3</li>
+     </ol>
+     <!--list-unstyled : 번호 삭제-->
+     <img src="https://via.placeholder.com/150" alt="" class="img-rounded"><!--border-radius : 6px-->
+     <img src="https://via.placeholder.com/150" alt="" class="img-circle">
+     <img src="https://via.placeholder.com/150" alt="" class="img-thumbnail"><!--썸네일 형식-->
+
+
+     <!--텍스트 칼라 text-primary  백그라운드칼라  bg-primary -->
+
+     <div class="container">
+         <div class="row">
+             <div class="col-xs-12">
+                <div class="bg-info img-rounded text-center">
+                    <h1 class=text-uppercase>Good soup restaurant</h1>
+                 </div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-md-2 bg-danger">
+                 <ul class="list-unstyled">
+                     <li><a href="#" text-center>pizza</a></li>
+                     <li><a href="#" text-center>pizza</a></li>
+                     <li><a href="#" text-center>pizza</a></li>
+                     <li><a href="#" text-center>pizza</a></li>
+                 </ul>
+             </div>
+             <div class="col-md-8 bg-warning">
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nulla culpa eveniet iste, magnam corporis nihil accusamus praesentium dolor labore aspernatur iusto esse voluptates voluptas dolore fugiat nam, at atque.</p>
+             </div>
+             <div class="col-md-2 bg-primary">
+                 <ul class="list-unstyled">
+                     <li>1</li>
+                     <li>2</li>
+                     <li>3</li>
+                     <li>4</li>
+                 </ul>
+             </div>
+         </div>
+     </div>
 
 </body>
 </html>
